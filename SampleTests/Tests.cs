@@ -21,8 +21,8 @@ namespace Sample.Tests
 			capabilities.AddAdditionalCapability("deviceName", "Android");
 			capabilities.AddAdditionalCapability("platformName", "Android");
 			capabilities.AddAdditionalCapability("bitbar_apiKey", BITBAR_APIKEY);
-			capabilities.AddAdditionalCapability("bitbar_project", "C# Appium");
-			capabilities.AddAdditionalCapability("bitbar_testrun", "Android Run Sample");
+			capabilities.AddAdditionalCapability("bitbar_project", "C# Appium BitBar Sample app");
+			capabilities.AddAdditionalCapability("bitbar_testrun", "Bitbar app Sample");
 
 			// See available devices at: https://cloud.bitbar.com/#public/devices
 			capabilities.AddAdditionalCapability("bitbar_device", "Google Pixel 3a Android 12");
